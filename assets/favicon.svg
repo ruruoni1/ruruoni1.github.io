@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title>ruruoni1 projects favicon</title>
+  <defs>
+    <linearGradient id="trail" x1="12" y1="46" x2="52" y2="18" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#127475" stop-opacity=".35"/>
+      <stop offset=".6" stop-color="#127475" stop-opacity=".85"/>
+      <stop offset="1" stop-color="#d16a3b"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="18" fill="#fff9f0"/>
+  <circle cx="18" cy="44" r="5" fill="url(#trail)"/>
+  <circle cx="27" cy="37" r="6" fill="url(#trail)"/>
+  <circle cx="38" cy="28" r="8" fill="url(#trail)"/>
+  <circle cx="48" cy="18" r="10" fill="url(#trail)"/>
+  <circle cx="48" cy="18" r="14" fill="none" stroke="#143047" stroke-opacity=".16" stroke-width="3"/>
+</svg>
