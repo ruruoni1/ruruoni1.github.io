@@ -18,7 +18,6 @@
     revealAll();
   } else {
     setupReveal();
-    setupRotator();
     setupTiltCards();
     setupHeroStage();
   }
@@ -161,25 +160,6 @@
         );
       })
       .join("");
-  }
-
-  function setupRotator() {
-    const target = document.querySelector(".accent-line");
-    if (!target || !data.heroRotator.length) {
-      return;
-    }
-
-    let index = 0;
-    target.classList.add("rotator-on");
-
-    window.setInterval(function () {
-      index = (index + 1) % data.heroRotator.length;
-      target.classList.remove("rotator-on");
-      window.setTimeout(function () {
-        target.textContent = data.heroRotator[index] + " 쇼케이스";
-        target.classList.add("rotator-on");
-      }, 140);
-    }, 2800);
   }
 
   function setupReveal() {
